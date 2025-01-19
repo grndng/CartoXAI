@@ -48,15 +48,49 @@ pip install -r requirements.txt
 
 ---
 
-## Example Results
+## Example Data and Results
 
-### Map Descriptions (Scale 1:50,000)
+### Data & Generated Map Descriptions
+**London, Scale 1:50,000, with labels**
+!["The image is a detailed map of London, England, showing the city’s streets, landmarks, and surrounding areas."](map_images/london_50k.png)
+**VLM output:** *"The image is a detailed map of London, England, showing the city’s streets, landmarks, and surrounding areas."*
 
-- **London (with labels):** "The image is a detailed map of London, England, showing the city’s streets, landmarks, and surrounding areas."
-- **Vancouver (no labels):** "The image is a detailed map of a city, featuring a grid-like pattern of streets and roads. The city is surrounded by water, with a coastline visible in the background."
+**London, Scale 1:50,000, without labels**
+!["The image is a detailed map of London, England, showing the city’s streets, landmarks, and surrounding areas."](map_images/london_50k_nolabels.png)
+**VLM output:** *"The image is a detailed map of London, England, showing the city’s streets, landmarks, and surrounding areas."*
 
-### Contribution Visualizations
-Heatmaps illustrating contributions of specific map regions to tokens such as "London" or "water." Full visualizations can be found in the `results/` directory.
+**Vancouver, Scale 1:50,000, with labels**
+![alt text](map_images/vancouver_50k.png)
+**VLM output:** *"The image is a detailed map of Vancouver, Canada, showing streets, landmarks, and a body of water."*
+
+**Vancouver, Scale 1:50,000, without labels**
+![alt text](map_images/vancouver_50k_nolabels.png)
+**VLM output:** *"The image is a detailed map of a city, showing streets, parks, and a body of water."*
+
+---
+
+### Map Descriptions Excerpt (Scale 1:50,000)
+**London including labels:**
+
+![alt text](assets/shap_london_50k_labels.png)
+
+**Highlighting the corresponding area in the original image:**
+
+![alt text](assets/london_50k_discussion.png)
+
+**London excluding labels:**
+
+![alt text](assets/shap_london_50k_no_labels.png)
+
+**Overview of the area compared to the original image:**
+
+![alt text](assets/london_50k_nolabels_discussion.png)
+
+**Vancouver including labels:**
+
+![alt text](assets/vancouver50k_discussion.png)
+
+**Full visualizations can be found in the `results/` directory.**
 
 ---
 
@@ -83,7 +117,6 @@ If you use this repository, please cite our work:
 ---
 
 ## License
-
 This repository is licensed under the MIT License. See `LICENSE` for more details.
 
 ---
