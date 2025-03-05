@@ -106,7 +106,7 @@ pip install -r requirements.txt
 If you use this repository, please cite our work:
 
 ```bibtex
-@article{dinga-schiewe-icc25,
+@article{tba,
   author    = {tba},
   title     = {tba},
   journal   = {tba},
