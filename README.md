@@ -106,11 +106,15 @@ pip install -r requirements.txt
 If you use this repository, please cite our work:
 
 ```bibtex
-@article{tba,
-  author    = {tba},
-  title     = {tba},
-  journal   = {tba},
-  year      = {tba},
+@Article{ica-adv-5-12-2025,
+AUTHOR = {Dinga, G. T. and Schiewe, J.},
+TITLE = {What do you see? An XAI approach for VLM-generated map descriptions},
+JOURNAL = {Advances in Cartography and GIScience of the ICA},
+VOLUME = {5},
+YEAR = {2025},
+PAGES = {12},
+URL = {https://ica-adv.copernicus.org/articles/5/12/2025/},
+DOI = {10.5194/ica-adv-5-12-2025}
 }
 ```
 
