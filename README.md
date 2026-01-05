@@ -1,6 +1,6 @@
 # What do you see? An XAI approach for VLM-generated map descriptions
 
-This repository accompanies our research paper on Explainable AI for maps using Vision Language Models (VLMs). It focuses on interpreting the output of VLMs to enable researches to better understand the decision-making processes of VLMs.
+This repository accompanies our research paper on Explainable AI for maps using Vision Language Models (VLMs) which you can find here: https://ica-adv.copernicus.org/articles/5/12/2025/. It focuses on interpreting the output of VLMs to enable researches to better understand the decision-making processes of VLMs.
 
 ## Overview
 Cartographic maps have become increasingly accessible to diverse communities over the past decades. However, accessibility for blind and visually impaired users remains a challenge. This project investigates the use of VLMs to generate map descriptions and applies Shapley-based Explainable AI methods to analyze and interpret the outputs of these models.
